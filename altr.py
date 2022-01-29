@@ -1,0 +1,1 @@
+#To Print alternate elemen
