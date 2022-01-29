@@ -37,6 +37,8 @@ public class Count {
             int[] arr = {1, 1, 1, 1};
             int count = getPairsCount(arr,arr.length ,2);
             System.out.println(count);
+            int counter = count(arr,6);
+            System.out.println(counter);
       }
       
 }
