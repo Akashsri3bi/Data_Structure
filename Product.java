@@ -1,4 +1,5 @@
 import java.math.BigInteger;
+import java.util.Arrays;
 
 //Maximum Product subArray Problem 
 public class Product {
@@ -13,6 +14,7 @@ public class Product {
                   }else{
                   max = Math.max(product , max)  ;
                   }
+
             }
 
             product = 1 ;
