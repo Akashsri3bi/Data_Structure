@@ -1,3 +1,5 @@
+import java.math.BigInteger;
+
 //Maximum Product subArray Problem 
 public class Product {
 
@@ -25,7 +27,7 @@ public class Product {
             return max ; 
       }
       public static void main(String[] args) {
-            int[] arr = {-8,5,3,2,1};
+            int[] arr = {-8,5,3,2,1}; //15492708000000
             System.out.println(maxproduct(arr, arr.length));
       }
       
