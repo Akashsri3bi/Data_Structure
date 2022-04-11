@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Stack;
 //Find the area  of maximum rectangle formed by binary matrix;
 public class MaxRect {
@@ -72,6 +73,7 @@ public class MaxRect {
          {1, 1 ,0 ,0}} ; 
 
          System.out.print(maxArea(mat, mat.length, mat[0].length));
+         
       }
       
 }
