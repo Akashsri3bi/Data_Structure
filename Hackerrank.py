@@ -1,22 +1,22 @@
-T = int(input())
-for i in range(T):
-      s = input()
-      d = ""
-      k = 0 
-      if(s==s[::-1]):
-            d = s
-            print(f'Case #{i+1}',d)
-      else:
-            while(k<len(s)-1):
-                  if(s[k]<=s[k+1]):
-                        d = d + s[k] + s[k]
-                  else:
-                        d = d + s[k]
-                  k = k+1
-            print(f'Case #{i+1}',d+s[len(s)-1])
-
-
-
-
-
+a = "1010"
+b = "1011"
+first = 0 
+second = 0
+for i in range(len(a)-1 , -1  , -1):
+      index = 0 
+      value = int(a[index])
+      first = first + (2**i)*value
+      
+      index+=1
+            
+for i in range(len(b)-1 , -1 ,-1):
+      index = 0 
+      value = int(b[index])
+      second = second + (2**i)*value
+      
+      index+=1
+            
+third = first+second
+result = str(bin(third))
+print(result[2:])
 
