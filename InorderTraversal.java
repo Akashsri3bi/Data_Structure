@@ -1,7 +1,4 @@
 import java.util.Stack;
-
-import javax.swing.InputMap;
-
 public class InorderTraversal {
 
       
