@@ -25,7 +25,7 @@ public class PostOrderTraversal {
       }
 
       //PostOrder Iterative
-      void postorder(Node root){
+      void Iterativepostorder(Node root){
             if(root==null){
                   return  ; 
             }
