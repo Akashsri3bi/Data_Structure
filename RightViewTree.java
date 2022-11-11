@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class RightViewTree {
 
@@ -16,7 +18,7 @@ public class RightViewTree {
       ArrayList<Integer> rightView(Node node) {
             ArrayList<Integer> list = new ArrayList<>();
             rightCheck(node, list, 0);
-            return list;
+            return list ; 
       }
 
       public static void rightCheck(Node root, ArrayList<Integer> list, int level) {
