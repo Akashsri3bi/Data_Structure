@@ -4,8 +4,6 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.TreeMap;
 
-import javax.management.Query;
-
 public class TopViewTree {
       class Node {
             int val;
