@@ -74,6 +74,7 @@ public class BTreeFromString {
             System.out.print(root.data+" ");
             printTree(root.left);
             printTree(root.right);
+            
       }
 
       public static void main(String[] args) {
