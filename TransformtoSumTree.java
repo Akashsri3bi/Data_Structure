@@ -1,7 +1,7 @@
 public class TransformtoSumTree {
 
       class Node {
-            Node left, right;
+            Node left, right ;
             int data;
 
             Node(int d) {
