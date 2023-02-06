@@ -23,7 +23,6 @@ public class DuplicateSubTree1 {
             traverse(root,map,result) ;
             Collections.sort(result, (node1 , node2)->node1.data - node2.data);
             return result ; 
-
       }
 
       public static String traverse(Node root, HashMap<String, Integer> map,List<Node> result) {
