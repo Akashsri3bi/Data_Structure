@@ -5,6 +5,7 @@ public class SpecialStack {
       public void push(int a, Stack<Integer> s) {
             // add code here.
             s.push(a);
+           
       }
 
       public int pop(Stack<Integer> s) {
