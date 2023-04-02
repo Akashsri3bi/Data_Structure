@@ -12,7 +12,7 @@ public class FirstNegative {
                               ans[i] = A[i + j];
                               flag = true;
                               break;
-                        }
+                        } 
                   }
 
                   if (!flag) {
