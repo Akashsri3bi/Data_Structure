@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class ArrayRemoval {
 
-          int removals(int[] arr, int n, int k) {
+      int removals(int[] arr, int n, int k) {
         // code here
         if(n==1){
             return 0 ;
