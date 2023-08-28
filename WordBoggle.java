@@ -3,7 +3,7 @@ import java.util.Collections;
 
 public class WordBoggle {
 
-          static boolean isValid(int r, int c,char[][] board){
+        static boolean isValid(int r, int c,char[][] board){
         if(r>=0 && r<board.length && c>=0 && c<board[0].length){
             return true ;
         }
