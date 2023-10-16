@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class NumberOfProvince {
 
-          static void dfs(ArrayList<ArrayList<Integer>> adj , int[] vis , int node){
+      static void dfs(ArrayList<ArrayList<Integer>> adj , int[] vis , int node){
         vis[node] = 1 ;
         for(int ele : adj.get(node)){
             if(vis[ele]!=1){
