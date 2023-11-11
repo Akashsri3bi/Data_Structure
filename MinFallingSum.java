@@ -11,7 +11,7 @@ public class MinFallingSum {
                         return 0;
                   }
             }
-            if (dp[i][j] != Integer.MIN_VALUE) {
+            if (dp[i][j] != Integer.MIN_VALUE){
                   return dp[i][j];
             }
 
