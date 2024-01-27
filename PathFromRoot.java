@@ -1,6 +1,6 @@
 public class PathFromRoot {
 
-       public static ArrayList<ArrayList<Integer>> printPaths(Node root, int sum)
+    public static ArrayList<ArrayList<Integer>> printPaths(Node root, int sum)
     {
         ArrayList<ArrayList<Integer>>ans=new ArrayList<>();
         ArrayList<Integer>ds=new ArrayList<>();
